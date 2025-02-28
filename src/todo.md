@@ -1,4 +1,4 @@
-# Examples
+# TODO
 
 ## Right to left books (Hebrew, Arabic, Farsi)
 
@@ -49,3 +49,6 @@ edit-url-template = "https://github.com/szabgab/git-he.code-maven.com/edit/main/
 
 * [Rust ebooks](https://rust-ebooks.code-maven.com/)
 
+* Customize 404 pages
+
+* Redirect to some other page or to an external site?
