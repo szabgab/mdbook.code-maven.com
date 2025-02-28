@@ -28,3 +28,10 @@ edit-url-template = "https://github.com/szabgab/git-he.code-maven.com/edit/main/
 * Customize 404 pages
 
 * Redirect to some other page or to an external site?
+
+
+* [epub](https://crates.io/crates/mdbook-epub)
+* [pdf](https://crates.io/crates/mdbook-pdf)
+
+https://crates.io/keywords/mdbook
+

@@ -1,6 +1,7 @@
 # Summary
 
 - [Home](./index.md)
+  - [Getting started with mdBook](./getting-started.md)
   - [Configuration](./configuration.md)
   - [Printing](./printing.md)
   - [Right to Left languages](./rtl.md)
