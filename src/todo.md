@@ -50,3 +50,8 @@ https://crates.io/keywords/mdbook
 Lines starting with `##` in the summary file are ignored, Maybe they can be designated as comments? Or can we have other comments? e.g. `<!-- -->`?
 
 * What is controlled by the `language` configuration option? Besides the direction (RTL, LTR?) and how come we can use any text there including "xyz" ?
+
+
+* Update the code highlighting in the mdbook, and add detailed explanation to https://rust-lang.github.io/mdBook/format/theme/syntax-highlighting.html
+on how to add a replacement highlighting.js file.
+

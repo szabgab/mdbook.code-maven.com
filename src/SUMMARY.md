@@ -9,6 +9,7 @@
   - [Embedding YouTube videos](./embedding-youtube-videos.md)
   - [Add footer](./footer.md)
   - [Create website on GitHub pages using mdBook](./github-pages-with-mdbook.md)
+  - [Syntax highlighting](./syntax-highlighting.md)
 
 ---
 
