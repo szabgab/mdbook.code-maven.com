@@ -1,5 +1,12 @@
 # TODO
 
+* Index Hebrew text  as well https://github.com/rust-lang/mdBook/issues/2393
+* Remove .html extension
+* syntax highlighting: generate the highlight.js when building the book?
+* Check which files are not in use?
+* Avoid including the same page twice.
+
+
 ## Generating pdf files
 
 ## Add github icon to the menu
@@ -54,4 +61,46 @@ Lines starting with `##` in the summary file are ignored, Maybe they can be desi
 
 * Update the code highlighting in the mdbook, and add detailed explanation to https://rust-lang.github.io/mdBook/format/theme/syntax-highlighting.html
 on how to add a replacement highlighting.js file.
+
+
+### Error
+
+given the following SUMMARY.md
+
+```
+# Summary
+
+- [next](Home](./index)
+
+```
+
+I get this error
+
+```
+$ mdbook build
+2025-03-02 15:11:15 [WARN] (mdbook::book::summary): Expected a start of a link, actually got Some(Text(Borrowed("[")))
+2025-03-02 15:11:15 [ERROR] (mdbook::utils): Error: Summary parsing failed for file="/home/gabor/work/exercises.code-mave.com/src/SUMMARY.md"
+2025-03-02 15:11:15 [ERROR] (mdbook::utils): 	Caused By: There was an error parsing the numbered chapters
+2025-03-02 15:11:15 [ERROR] (mdbook::utils): 	Caused By: There was an error parsing the numbered chapters
+2025-03-02 15:11:15 [ERROR] (mdbook::utils): 	Caused By: failed to parse SUMMARY.md line 3, column 3: The link items for nested chapters must only contain a hyperlink
+```
+
+I the Rust `Some(Text(Borrowed` there looks bad
+
+
+command line test
+
+* If SUMMARY.md is missing
+* Should we check the case of SUMMARY.md (so people on Windows won't be surprised if Summary.md works on their computer but not on Linux?
+
+* Warn if the same file is included twice via SUMMARY.md - right now it is just accepted
+
+* What happens if there are two separeators in the SUMMARY one after the other?
+
+```
+# One
+# Two
+- [Page](./page.md)
+```
+
 
