@@ -9,7 +9,7 @@ It is written in Rust with a default back-end generating HTML files including Ja
 It has additional backends building other formats. (epub, pdf)
 
 For more information check out [User Guide of mdBook](https://rust-lang.github.io/mdBook/) and the [GitHub repository of mdBook](https://github.com/rust-lang/mdBook/).
-
+There are also [third party plugins](https://github.com/rust-lang/mdBook/wiki/Third-party-plugins).
 
 
 
