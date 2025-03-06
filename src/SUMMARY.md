@@ -10,6 +10,8 @@
   - [Add footer](./footer.md)
   - [Create website on GitHub pages using mdBook](./github-pages-with-mdbook.md)
   - [Syntax highlighting](./syntax-highlighting.md)
+  - [Add github icon to the menu](./add-github-icon-to-the-menu.md)
+  - [Customized 404 pages](./customized-404-page.md)
 
 # Preprocesors
 - [Preprocessors](./preprocessors.md)
