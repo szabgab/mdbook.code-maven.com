@@ -94,4 +94,6 @@ command line test
 - [Page](./page.md)
 ```
 
-
+* Include the time the book was generated. Either in the footer or on one of the pages.
+* Include a front-image.
+* Document what extensions can be the files referred to in the SUMMARY.md ?  `.md` works, but if we leave out the extension that also works. If the extension is `html` then I think it is not processed etc.
