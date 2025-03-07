@@ -18,7 +18,8 @@
 - [Preprocessors](./preprocessors.md)
   - [Admonish](./preprocessors/admonish.md)
   - [Alerts](./preprocessors/alerts.md)
-
+  - [Use Other HTML generator](./other-html-generator.md)
+  - [My own preprocssor](./generated-page.md)
 
 # Output generators
 

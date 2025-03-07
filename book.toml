@@ -24,8 +24,14 @@ footer.message = "Copyright © 2025 • Created with ❤️  by [Gábor Szabó](
 
 [preprocessor.alerts]
 
+
+
+[preprocessor.preprocessor]
+command = "python3 my_preprocessor.py"
+
 # This requires the print.html file which will not be created as we set the output.html.print to false.
 # [output.pdf]
+
 
 
 
