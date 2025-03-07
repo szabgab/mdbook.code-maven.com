@@ -16,6 +16,7 @@
 # Preprocesors
 - [Preprocessors](./preprocessors.md)
   - [Admonish](./preprocessors/admonish.md)
+  - [Alerts](./preprocessors/alerts.md)
 
 
 # Output generators

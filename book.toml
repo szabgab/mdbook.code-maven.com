@@ -22,6 +22,7 @@ enable = false
 footer.enable = true
 footer.message = "Copyright © 2025 • Created with ❤️  by [Gábor Szabó](https://szabgab.com/)"
 
+[preprocessor.alerts]
 
 # This requires the print.html file which will not be created as we set the output.html.print to false.
 # [output.pdf]
