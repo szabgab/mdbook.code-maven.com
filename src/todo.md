@@ -33,10 +33,16 @@
 
 * Redirect to some other page or to an external site?
 
-* Generating pdf files
 * Generating epub files
 * [epub](https://crates.io/crates/mdbook-epub)
-* [pdf](https://crates.io/crates/mdbook-pdf)
+
+
+
+pandoc on Ubuntu:
+
+```
+sudo apt install pandoc
+```
 
 https://crates.io/keywords/mdbook
 

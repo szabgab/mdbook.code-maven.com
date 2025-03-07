@@ -18,6 +18,9 @@
   - [Admonish](./preprocessors/admonish.md)
 
 
+# Output generators
+
+- [Generating pdf file](./generate-pdf.md)
 
 ---
 
