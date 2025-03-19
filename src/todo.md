@@ -97,3 +97,6 @@ command line test
 * Include the time the book was generated. Either in the footer or on one of the pages.
 * Include a front-image.
 * Document what extensions can be the files referred to in the SUMMARY.md ?  `.md` works, but if we leave out the extension that also works. If the extension is `html` then I think it is not processed etc.
+
+* We can use `{{#include file/path }}` to include file from pathes outside of the book, but currently `serve` does not `watch` changes to those files.
+    Watch files from outside the tree.
