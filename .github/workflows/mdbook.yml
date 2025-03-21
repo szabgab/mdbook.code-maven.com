@@ -24,6 +24,7 @@ jobs:
       MDBOOK_VERSION: 0.4.44
       EMBEDIFY_VERSION: 0.2.11
       ALERTS_VERSION: 0.7.0
+      LINKCHECK_VERSION: 
     steps:
       - name: Checkout site source
         uses: actions/checkout@v4
@@ -41,6 +42,10 @@ jobs:
           wget https://github.com/lambdalisue/rs-mdbook-alerts/releases/download/v${ALERTS_VERSION}/mdbook-alerts-x86_64-unknown-linux-gnu
           mv mdbook-alerts-x86_64-unknown-linux-gnu mdbook-alerts
           chmod +x mdbook-alerts
+
+          wget https://github.com/Michael-F-Bryan/mdbook-linkcheck/releases/download/v{LINKCHECH_VERSION}/mdbook-linkcheck.x86_64-unknown-linux-gnu.zip
+          unzip mdbook-linkcheck.x86_64-unknown-linux-gnu.zip
+          chmod +x mdbook-linkcheck
 
           #- name: Setup Pages
           #  uses: actions/configure-pages@v5

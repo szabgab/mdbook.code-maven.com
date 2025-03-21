@@ -29,6 +29,16 @@ footer.message = "Copyright © 2025 • Created with ❤️  by [Gábor Szabó](
 [preprocessor.preprocessor]
 command = "python3 my_preprocessor.py"
 
+[output.linkcheck]
+follow-web-links = true
+traverse-parent-directories = false
+user-agent = "Tester"
+
+[output.linkcheck.http-headers]
+'crates\.io' = ["Accept: text/html"]
+
+
+
 # This requires the print.html file which will not be created as we set the output.html.print to false.
 # [output.pdf]
 

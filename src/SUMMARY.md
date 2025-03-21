@@ -13,6 +13,7 @@
   - [Add github icon to the menu](./add-github-icon-to-the-menu.md)
   - [Customized 404 pages](./customized-404-page.md)
   - [GitHub Pages](./github-pages.md)
+  - [404](./404.md)
 
 # Preprocesors
 - [Preprocessors](./preprocessors.md)
