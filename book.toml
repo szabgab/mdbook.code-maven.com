@@ -29,14 +29,14 @@ footer.message = "Copyright © 2025 • Created with ❤️  by [Gábor Szabó](
 [preprocessor.preprocessor]
 command = "python3 my_preprocessor.py"
 
-[output.linkcheck]
-follow-web-links = true
-traverse-parent-directories = false
-user-agent = "Tester"
-optional = true
+#[output.linkcheck]
+#follow-web-links = true
+#traverse-parent-directories = false
+#user-agent = "Tester"
+#optional = true
 
-[output.linkcheck.http-headers]
-'crates\.io' = ["Accept: text/html"]
+#[output.linkcheck.http-headers]
+#'crates\.io' = ["Accept: text/html"]
 
 
 
