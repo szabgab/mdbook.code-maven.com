@@ -43,7 +43,7 @@ jobs:
           mv mdbook-alerts-x86_64-unknown-linux-gnu mdbook-alerts
           chmod +x mdbook-alerts
 
-          wget https://github.com/Michael-F-Bryan/mdbook-linkcheck/releases/download/v{LINKCHECH_VERSION}/mdbook-linkcheck.x86_64-unknown-linux-gnu.zip
+          wget https://github.com/Michael-F-Bryan/mdbook-linkcheck/releases/download/v${LINKCHECH_VERSION}/mdbook-linkcheck.x86_64-unknown-linux-gnu.zip
           unzip mdbook-linkcheck.x86_64-unknown-linux-gnu.zip
           chmod +x mdbook-linkcheck
 
