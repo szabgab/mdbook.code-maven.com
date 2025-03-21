@@ -44,7 +44,7 @@ jobs:
           chmod +x mdbook-alerts
 
           wget https://github.com/Michael-F-Bryan/mdbook-linkcheck/releases/download/v${LINKCHECK_VERSION}/mdbook-linkcheck.x86_64-unknown-linux-gnu.zip
-          unzip mdbook-linkcheck.x86_64-unknown-linux-gnu.zip
+          unzip mdbook-linkcheck.x86_64-unknown-linux-gnu.zip -x README.md LICENSE
           chmod +x mdbook-linkcheck
 
           #- name: Setup Pages
