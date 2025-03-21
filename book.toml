@@ -33,6 +33,7 @@ command = "python3 my_preprocessor.py"
 follow-web-links = true
 traverse-parent-directories = false
 user-agent = "Tester"
+optional = true
 
 [output.linkcheck.http-headers]
 'crates\.io' = ["Accept: text/html"]
