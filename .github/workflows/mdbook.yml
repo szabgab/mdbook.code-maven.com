@@ -24,7 +24,7 @@ jobs:
       MDBOOK_VERSION: 0.4.44
       EMBEDIFY_VERSION: 0.2.11
       ALERTS_VERSION: 0.7.0
-      LINKCHECK_VERSION: 
+      LINKCHECK_VERSION: 0.7.7
     steps:
       - name: Checkout site source
         uses: actions/checkout@v4
