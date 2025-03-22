@@ -29,3 +29,4 @@
 
 - [TODO](./todo.md)
 - [Issue 2506](./issue-2506.md)
+- [Include Jupyter Notebook](./jupyter-notebook.md)
