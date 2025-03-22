@@ -119,11 +119,4 @@ also in the dependencies of mdbook:
 RUST_LOG mdbook build
 ```
 
-## Issue [2506](https://github.com/rust-lang/mdBook/issues/2506)
-
-
-```
-echo hello
-echo world
-```
 
