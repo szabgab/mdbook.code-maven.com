@@ -100,3 +100,23 @@ command line test
 
 * We can use `\{{#include file/path }}` to include file from pathes outside of the book, but currently `serve` does not `watch` changes to those files.
     Watch files from outside the tree.
+
+* Turn on more logging:
+
+```
+RUST_LOG=mdbook=debug mdbook build
+```
+
+and even more logging:
+
+```
+RUST_LOG=mdbook=trace mdbook build
+```
+
+also in the dependencies of mdbook:
+
+```
+RUST_LOG mdbook build
+```
+
+
