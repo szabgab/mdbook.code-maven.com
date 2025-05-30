@@ -41,7 +41,9 @@
 pandoc on Ubuntu:
 
 ```
-sudo apt install pandoc
+sudo apt install pandoc texlive
+
+pandoc myfile.md -o output.pdf
 ```
 
 https://crates.io/keywords/mdbook
