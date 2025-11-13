@@ -28,6 +28,13 @@ footer.message = "Copyright © 2025 • Created with ❤️  by [Gábor Szabó](
 [preprocessor.preprocessor]
 command = "python3 my_preprocessor.py"
 
+#[preprocessor.jupyter_notebook]
+#command = "python3 convert_jupyter_notebooks.py"
+
+
+# jupyter nbconvert --to markdown src/examples/demo.ipynb --output-dir src/notebooks/
+
+
 #[output.linkcheck]
 #follow-web-links = true
 #traverse-parent-directories = false
