@@ -9,7 +9,7 @@ description = "Everything I know about mdBook that you might also want to know."
 # Add github icon to the menu
 [output.html]
 git-repository-url = "https://github.com/szabgab/mdbook.code-maven.com"
-git-repository-icon = "fa-github"
+git-repository-icon = "fas-code-fork"
 edit-url-template = "https://github.com/szabgab/mdbook.code-maven.com/edit/main/{path}"
 
 # Remove the printer icon from the menu
