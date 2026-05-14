@@ -27,7 +27,7 @@ jobs:
       LINKCHECK_VERSION: 0.7.7
     steps:
       - name: Checkout site source
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Download mdBook
         run: |
@@ -57,7 +57,7 @@ jobs:
           find book/ -name *.html | xargs perl -i -p -e 's{(href="[a-zA-Z0-9.][^"]+)\.html"}{$1"}g'
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: book/
 
@@ -71,5 +71,5 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
 
